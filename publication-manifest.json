@@ -1,0 +1,196 @@
+{
+  "snapshot_date": "2026-10-20",
+  "skills": [
+    "warriors-work-principles",
+    "visual-task-gate",
+    "ppt-design-collaboration",
+    "pinterest-reference-design",
+    "ai-motion-director",
+    "ai-video-text-safe-workflow",
+    "jimeng-prompt-reference-skill",
+    "photoshop-mcp"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "34582da242717ded36c11e59051c800ed1f3ae53adbe755b8d6a88a031455c59"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "e87cbebdd20e64a2613272c2682f7abeba2d260f3c26bb57661004e7323895d8"
+    },
+    {
+      "path": "PUBLICATION_CHECKS.md",
+      "sha256": "dd0a49e97421b8f0b308ebd2ee7e1467f11143863f195e5a39c331f1fac98e57"
+    },
+    {
+      "path": "README.md",
+      "sha256": "378962a3a68bba3e54f1b0dc899f67f3b25c7ddae7f089e7dd871454da9f64f8"
+    },
+    {
+      "path": "skills/ai-motion-director/SKILL.md",
+      "sha256": "ae94e49fe041b0ef564bc570c799b1d96fab701fcacb40923fd302c507da8f2f"
+    },
+    {
+      "path": "skills/ai-motion-director/agents/openai.yaml",
+      "sha256": "9e31d17e577885f5523229c2f949c0f23d951d8eee368c48ae48befc1705ee97"
+    },
+    {
+      "path": "skills/ai-motion-director/assets/motion-ledger.json",
+      "sha256": "b471f3a21966fa0fd2a9828842f858d561c0a373c289e5b1d59d0d19989ae4ab"
+    },
+    {
+      "path": "skills/ai-motion-director/assets/project-context.md",
+      "sha256": "a15d6e52515300672440d0db7baccecd855eeff593a1d6c0eb7231d612924d27"
+    },
+    {
+      "path": "skills/ai-motion-director/references/motion-design.md",
+      "sha256": "0e58308a0f9c969176495e348fb225b42a0b304b0d081d34c8f8dfe2cd4f0c93"
+    },
+    {
+      "path": "skills/ai-motion-director/references/motion-library.json",
+      "sha256": "daf5cbae28db7dbc8f737b08a5ce45cc2fc745eb157efd848158650515851bf7"
+    },
+    {
+      "path": "skills/ai-motion-director/references/project-state.md",
+      "sha256": "105c6812b972205f53d35cdee5e04017e8ba13f3da9a08e85f5a0f8f33735352"
+    },
+    {
+      "path": "skills/ai-motion-director/references/skill-integration.md",
+      "sha256": "5529d0738f58946ff5c1f1389c140d4a6eed681080c2512ca03a448a237a30f6"
+    },
+    {
+      "path": "skills/ai-motion-director/references/sources.md",
+      "sha256": "41d39aa155c752701dbe3c91ee8ce8fa5107a5f5703472af2a94a901154512e3"
+    },
+    {
+      "path": "skills/ai-video-text-safe-workflow/SKILL.md",
+      "sha256": "7f1f5c2ba5b845046aaae1db4bf4c9ad360b6bcdfa44df113b5a4f6e4c7d31d5"
+    },
+    {
+      "path": "skills/ai-video-text-safe-workflow/evals/evals.json",
+      "sha256": "b72669147d87c7592a062373a041f172a118eae6bf4480c180db42729df941e8"
+    },
+    {
+      "path": "skills/ai-video-text-safe-workflow/references/sources.md",
+      "sha256": "859b45b84a3812b66038470ef296fbf3bc57e53fedaf5e331e176658ce0b9d72"
+    },
+    {
+      "path": "skills/jimeng-prompt-reference-skill/SKILL.md",
+      "sha256": "943ee6a9c6dd55069fad8cb91bf2abea9c3c4df46f5ed71f959df7eea3d12c58"
+    },
+    {
+      "path": "skills/jimeng-prompt-reference-skill/evals/evals.json",
+      "sha256": "bc9d910c950333b9b56bfee1d88fca89826ec5f1f07be5633692ea970a343b6d"
+    },
+    {
+      "path": "skills/jimeng-prompt-reference-skill/references.md",
+      "sha256": "8c8b5a4364a39bedc94f4134b64b9b4254d514c5d20effbf931bb0e94f7772db"
+    },
+    {
+      "path": "skills/jimeng-prompt-reference-skill/references/jimeng-seedance-2.5.md",
+      "sha256": "64f10c5de3cb424d726739fdd765acb4a0a68c74b115978ee21f1423d8f43364"
+    },
+    {
+      "path": "skills/jimeng-prompt-reference-skill/references/model-registry.md",
+      "sha256": "d707d0d1f094fa9b5b47485ef693be4ce81c86ee81678ca89de11ca441b65476"
+    },
+    {
+      "path": "skills/jimeng-prompt-reference-skill/scripts/check_jimeng_prompt_reference.py",
+      "sha256": "98431e863a9568a01d2d526c45fb95bc47e808963b328006d1d4acc005db9012"
+    },
+    {
+      "path": "skills/photoshop-mcp/SKILL.md",
+      "sha256": "aa45937c22c0ee4d7e8a9b51cdc493ffc83c64d6c352bb29f3a2d60114e12c64"
+    },
+    {
+      "path": "skills/photoshop-mcp/agents/openai.yaml",
+      "sha256": "87a3f02cc3d62ba9e9cbfee41060779796d85a8188f4d60aaf1884da083f8424"
+    },
+    {
+      "path": "skills/pinterest-reference-design/SKILL.md",
+      "sha256": "bc21885392000b6647ab1667ad919d9ee87c03daf18e88ba7c8c6480257f9f69"
+    },
+    {
+      "path": "skills/pinterest-reference-design/evals/evals.json",
+      "sha256": "141bc4ec87ae46302eb7199b431bd43e2b19449d2cf925bd23138e54f9ff69e3"
+    },
+    {
+      "path": "skills/pinterest-reference-design/references/source-selection.md",
+      "sha256": "78c90b62dd1fa34d489ad1d51d1d7e783e124322bb31f319162e2e5dab9125e6"
+    },
+    {
+      "path": "skills/pinterest-reference-design/references/transfer-and-review.md",
+      "sha256": "b180869b61471445118065704bf8e778d82ffe88ff7bd9c4d40374b7630eec0e"
+    },
+    {
+      "path": "skills/ppt-design-collaboration/SKILL.md",
+      "sha256": "e2f321a7868d9579ce754715308ae1065797699b868279cc46d42a57cf478768"
+    },
+    {
+      "path": "skills/ppt-design-collaboration/agents/openai.yaml",
+      "sha256": "f6f0c4fe83a554f4c9fb28913e041dbe32f5793b2e0669a96805df4dc78da605"
+    },
+    {
+      "path": "skills/ppt-design-collaboration/evals/evals.json",
+      "sha256": "bd47bc912c0962acb0d5e9e14b1fc4664de020c479921631861498eaeb8f2a70"
+    },
+    {
+      "path": "skills/ppt-design-collaboration/references/design-norms-index.md",
+      "sha256": "6ebc4a7933fab68fac3296dc076fb6c2fe574e3898819474194c7346b854cc8f"
+    },
+    {
+      "path": "skills/ppt-design-collaboration/references/design-research.md",
+      "sha256": "349b6be61cd0c6db0717735666a2e897eaf5ea9ed84623fedc178aab366ff51a"
+    },
+    {
+      "path": "skills/ppt-design-collaboration/references/handoff.md",
+      "sha256": "e7c8c57775f31246d4ae4cbb36b33fdfb894e7949988e4e3ef92b9954739a111"
+    },
+    {
+      "path": "skills/ppt-design-collaboration/references/image-first-production.md",
+      "sha256": "e0a62745e5c9828b398461cc5ed0aeb3d08f8439518187ffb6db273db47eb631"
+    },
+    {
+      "path": "skills/ppt-design-collaboration/references/party-government.md",
+      "sha256": "bea14d45b3e65a2da8f7d628e6255f93f5ab1a185d1f94585e37219b433fbd4e"
+    },
+    {
+      "path": "skills/ppt-design-collaboration/references/production-and-revisions.md",
+      "sha256": "662b3017fe63004335397c00cb547159f68e4f1b6906cb54c4afa9d68eb74dff"
+    },
+    {
+      "path": "skills/ppt-design-collaboration/references/reference-contract.md",
+      "sha256": "f6ca540a480401fbeb2ec667176fbd5473123b0f0d950e7570bd232c82d20305"
+    },
+    {
+      "path": "skills/ppt-design-collaboration/requirements.txt",
+      "sha256": "dce978a554b00caca70d59f539d25c61fcc89681e02d7fec42948cd5c3c0a127"
+    },
+    {
+      "path": "skills/ppt-design-collaboration/scripts/pptx-content-audit.py",
+      "sha256": "1fbe3b9cdac816806358b2076150bfdf7646926087a1c4c803848139929980a7"
+    },
+    {
+      "path": "skills/ppt-design-collaboration/scripts/slide-reference-audit.py",
+      "sha256": "4ffcc3bc4fb071f26b9d2528f7ead605130680732405b7daa33410bbf1004681"
+    },
+    {
+      "path": "skills/ppt-design-collaboration/scripts/test_slide_audits.py",
+      "sha256": "2f1c1f37a9f6918a0fd461b8164082c7a920918a25ef13e6690310dc0f1ad754"
+    },
+    {
+      "path": "skills/visual-task-gate/SKILL.md",
+      "sha256": "f7da02f8384a07e5f55288a8c7265362b2e74492b3b320a57f579896892f2e58"
+    },
+    {
+      "path": "skills/warriors-work-principles/SKILL.md",
+      "sha256": "e77008804eab8d5cc40a1b4943b898bfcb404a812a77b6844ee8f79c0a8e063f"
+    },
+    {
+      "path": "skills/warriors-work-principles/references/visual-review.md",
+      "sha256": "f0382ad70921ee1a6d3a3122073b1ff67c91814e6a16576cd63b7d9827e990b0"
+    }
+  ],
+  "manifest_scope": "All published files except this manifest itself."
+}

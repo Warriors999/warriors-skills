@@ -1,0 +1,4 @@
+interface:
+  display_name: "Photoshop 本机编辑"
+  short_description: "通过 MCP 编辑本机 PSD 文字、图层、蒙版和导出"
+  default_prompt: "使用 $photoshop-mcp 处理用户指定的 Photoshop 编辑任务，保留原件，并检查真实输出。"

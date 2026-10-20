@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI 动效设计"
+  short_description: "根据已有关键帧设计有表现力的即梦动画，结合案例与项目记录避免同质化"
+  default_prompt: "使用 $ai-motion-director，沿用项目背景，根据这组关键帧设计贴合画面元素的动效，并输出可直接用于即梦的提示词。"
+policy:
+  allow_implicit_invocation: true

@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-10-20",
+  "snapshot_date": "2026-11-19",
   "skills": [
     "warriors-work-principles",
     "visual-task-gate",
@@ -8,7 +8,8 @@
     "ai-motion-director",
     "ai-video-text-safe-workflow",
     "jimeng-prompt-reference-skill",
-    "photoshop-mcp"
+    "photoshop-mcp",
+    "jianli"
   ],
   "files": [
     {
@@ -21,11 +22,11 @@
     },
     {
       "path": "INSTALL.md",
-      "sha256": "aa911fef66eaf4dfcbb6b5c27641f9f78c3ee5c1b64290b84ced0b45280e4dbd"
+      "sha256": "f622f9e57f7a55988842fca1974de43153cbf2eb64fc74a89ccbb4d3219110a5"
     },
     {
       "path": "PROVENANCE.md",
-      "sha256": "e87cbebdd20e64a2613272c2682f7abeba2d260f3c26bb57661004e7323895d8"
+      "sha256": "c5157f02fff28ab6fd0cc53dd1355b3ee03c2aeb67d42aee360347d0eaa7a952"
     },
     {
       "path": "PUBLICATION_CHECKS.md",
@@ -33,7 +34,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "87d1ca562e58708e46d32349576f71efcc4cf85d0e3eaf1cbd6ba27ef4464a47"
+      "sha256": "296eb9ba1eeb291f54d76d42a1d97204e1af9429413ab6416eb14c7763edefbf"
     },
     {
       "path": "skills/ai-motion-director/SKILL.md",
@@ -84,6 +85,18 @@
       "sha256": "859b45b84a3812b66038470ef296fbf3bc57e53fedaf5e331e176658ce0b9d72"
     },
     {
+      "path": "skills/jianli/SKILL.md",
+      "sha256": "814129b39b0787c6518aabbd9dbe680ece92e45d59ec64471b1064008b56f5ed"
+    },
+    {
+      "path": "skills/jianli/agents/openai.yaml",
+      "sha256": "d886ad729ad9805b2b3712d06b4a9961916304e9871bf97acfbb6f12300d398d"
+    },
+    {
+      "path": "skills/jianli/references/招聘研究.md",
+      "sha256": "f8da82deea6e5eedafe5f3193314b50a1570c40d12eec94003c6234ea4a686bb"
+    },
+    {
       "path": "skills/jimeng-prompt-reference-skill/SKILL.md",
       "sha256": "943ee6a9c6dd55069fad8cb91bf2abea9c3c4df46f5ed71f959df7eea3d12c58"
     },
@@ -92,16 +105,16 @@
       "sha256": "bc9d910c950333b9b56bfee1d88fca89826ec5f1f07be5633692ea970a343b6d"
     },
     {
+      "path": "skills/jimeng-prompt-reference-skill/references.md",
+      "sha256": "8c8b5a4364a39bedc94f4134b64b9b4254d514c5d20effbf931bb0e94f7772db"
+    },
+    {
       "path": "skills/jimeng-prompt-reference-skill/references/jimeng-seedance-2.5.md",
       "sha256": "64f10c5de3cb424d726739fdd765acb4a0a68c74b115978ee21f1423d8f43364"
     },
     {
       "path": "skills/jimeng-prompt-reference-skill/references/model-registry.md",
       "sha256": "d707d0d1f094fa9b5b47485ef693be4ce81c86ee81678ca89de11ca441b65476"
-    },
-    {
-      "path": "skills/jimeng-prompt-reference-skill/references.md",
-      "sha256": "8c8b5a4364a39bedc94f4134b64b9b4254d514c5d20effbf931bb0e94f7772db"
     },
     {
       "path": "skills/jimeng-prompt-reference-skill/scripts/check_jimeng_prompt_reference.py",

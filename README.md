@@ -1,6 +1,6 @@
 # Warriors Skills
 
-按实际工作需求、通过 AI 辅助编写与持续维护的 8 个定制技能，覆盖视觉研究、PPT 协作、即梦提示词、动效设计与 Photoshop 操作流程。
+按实际工作需求、通过 AI 辅助编写与持续维护的 9 个定制技能，覆盖视觉研究、PPT 协作、即梦提示词、动效设计与 Photoshop 操作流程。
 
 [English](#english) · [安装](#安装) · [技能清单](#技能清单)
 
@@ -12,6 +12,7 @@
 | --- | --- | --- |
 | 工作流程 | [warriors-work-principles](skills/warriors-work-principles/SKILL.md) | 研究、分析、方案、执行、真实产物验收与迭代 |
 | 视觉入口 | [visual-task-gate](skills/visual-task-gate/SKILL.md) | 区分输入职责，按任务选择技能并落实视觉验收 |
+| 简历设计 | [jianli](skills/jianli/SKILL.md) | 按岗位研究参考、讨论视觉方向、比较整页草图并制作可编辑简历 |
 | PPT | [ppt-design-collaboration](skills/ppt-design-collaboration/SKILL.md) | 参考契约、场景规范、设计制作、可编辑交付与修改 |
 | 参考研究 | [pinterest-reference-design](skills/pinterest-reference-design/SKILL.md) | 参考筛选、结构分析、设计转化与素材权利核查 |
 | 动效 | [ai-motion-director](skills/ai-motion-director/SKILL.md) | 基于既有关键帧设计动作机制、镜头与片段衔接 |
@@ -32,7 +33,7 @@
 npx skills add Warriors999/warriors-skills
 
 # 只安装一个技能，并安装到全局 Agent 技能目录
-npx skills add Warriors999/warriors-skills --skill ppt-design-collaboration -g
+npx skills add Warriors999/warriors-skills --skill jianli -g
 ```
 
 也可以只查看技能提示词而不安装：
@@ -41,9 +42,9 @@ npx skills add Warriors999/warriors-skills --skill ppt-design-collaboration -g
 npx skills use Warriors999/warriors-skills@warriors-work-principles
 ```
 
-不同 Agent 的安装位置和参数可能不同，请先运行 `npx skills add --help`。本仓库不要求安装全部 8 个技能；按任务选择最小组合即可。
+不同 Agent 的安装位置和参数可能不同，请先运行 `npx skills add --help`。本仓库不要求安装全部技能；按任务选择最小组合即可。
 
-已验证：Skills CLI 可从公开仓库识别全部 8 个技能；`ppt-design-collaboration` 已在隔离的临时项目目录完成 Codex 安装验证。更多说明见 [INSTALL.md](INSTALL.md)。
+安装方式与依赖说明见 [INSTALL.md](INSTALL.md)。
 
 组合使用时，`visual-task-gate` 路由至工作守则及当前任务需要的技能；仅装单个技能时，按入口说明检查其依赖。技能中所述“全局规则”需要在使用环境中启用，不会仅因仓库存在而自动生效。
 
@@ -51,7 +52,7 @@ npx skills use Warriors999/warriors-skills@warriors-work-principles
 
 - 图片生成默认衔接 OpenAI-Compatible Images 插件及当前配置的提供商/模型。本仓库不包含插件或模型服务。未配置时说明具体缺口，按用户指定路线处理，不假装调用成功。
 - `photoshop-mcp` 需要 Photoshop 和已配置的 [Photoshop MCP](https://github.com/alisaitteke/photoshop-mcp)。本仓库只提供工作流说明，不包含第三方 MCP 实现。
-- PPT 制作、图像理解等流程会引用 `pptx`、`presentations`、`vision-tools` 等外部能力；它们不在这 8 个技能之内，是否可用以当前环境为准。
+- PPT 制作、图像理解等流程会引用 `pptx`、`presentations`、`vision-tools` 等外部能力；这些外部能力的可用性以当前环境为准。
 - PPT 审计脚本使用 Python 3.10+；图像审计还需要 Pillow。依赖声明见对应目录的 `requirements.txt`。
 - `evals/evals.json` 是行为评测用例定义，不代表已经运行或通过模型行为评测。空白项目模板不包含真实项目记录。
 - 平台手册与界面观察保留核查日期和适用范围；历史记录不能保证当前平台能力。
@@ -67,6 +68,8 @@ npx skills use Warriors999/warriors-skills@warriors-work-principles
 下面的示例只展示调用方式，不包含真实项目、客户资料或效果展示：
 
 ```text
+使用 $jianli，为软件开发岗位设计一页简历。先研究参考、提出几个视觉方向，等我确认后再做草图。
+
 使用 $warriors-work-principles，先分析任务约束和验收标准，再给出最小执行方案。
 
 使用 $ppt-design-collaboration，检查这份 PPT 的参考契约、可编辑性和交付验收项。
@@ -86,7 +89,7 @@ npx skills use Warriors999/warriors-skills@warriors-work-principles
 
 ## English
 
-Warriors Skills is a public collection of eight custom skills developed and maintained with AI assistance for visual research, presentation collaboration, Jimeng video prompting, motion direction, and Photoshop MCP workflows.
+Warriors Skills is a public collection of nine custom skills developed and maintained with AI assistance for visual research, presentation collaboration, Jimeng video prompting, motion direction, and Photoshop MCP workflows.
 
 The repository contains sanitized instructions and reusable decision rules. It does not contain private project files, client material, credentials, local application configuration, generated media, or third-party runtime implementations.
 
@@ -97,7 +100,7 @@ The repository contains sanitized instructions and reusable decision rules. It d
 npx skills add Warriors999/warriors-skills
 
 # Install one skill globally
-npx skills add Warriors999/warriors-skills --skill ppt-design-collaboration -g
+npx skills add Warriors999/warriors-skills --skill jianli -g
 
 # Use a skill without installing it
 npx skills use Warriors999/warriors-skills@warriors-work-principles
@@ -107,6 +110,7 @@ Use only the smallest set of skills needed for the task. Check the current CLI h
 
 ### What is included
 
+- `jianli`: role-specific resume research, visual directions, full-page drafts, and editable production.
 - `warriors-work-principles`: research, design judgment, execution, verification, and delivery discipline.
 - `visual-task-gate`: input classification, skill routing, and visual acceptance checks.
 - `ppt-design-collaboration`: presentation research, reference contracts, editable production, and QA.

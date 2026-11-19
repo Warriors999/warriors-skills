@@ -1,9 +1,10 @@
 # 编写与参考来源
 
-本仓库仅包含明确选定的 8 个定制技能。它们由 Warriors 工作需求驱动，通过 AI 辅助编写、审查和修改；不把参考资料、第三方软件或已安装的第三方技能作为自主实现发布。
+本仓库仅包含明确选定的 9 个定制技能。它们由 Warriors 工作需求驱动，通过 AI 辅助编写、审查和修改；不把参考资料、第三方软件或已安装的第三方技能作为自主实现发布。
 
 | 技能 | 编写与参考边界 |
 | --- | --- |
+| jianli | 按岗位定制简历的参考研究、草图确认与交付流程。招聘指导资料仅作参考，来源见 [招聘研究](skills/jianli/references/招聘研究.md)。 |
 | warriors-work-principles | 定制工作流程。视觉审查部分借鉴 [Taste Skill](https://github.com/Leonxlnx/taste-skill) 的思路；具体说明保留在 `references/visual-review.md`。未包含 Taste 的脚本与素材。 |
 | visual-task-gate | 定制的任务分类、技能路由与验收入口，默认图片执行路线需要另行配置插件。 |
 | ppt-design-collaboration | 定制的 PPT 协作规则、参考文档、审计脚本与离线测试；规范索引属于检索线索，实际适用性需核查。 |
